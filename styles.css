@@ -1,5 +1,7 @@
 body {
 	background-color: black;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .path {
@@ -332,6 +334,85 @@ body {
 	animation-duration: 7s;
 }
 
+
+.star12 {
+	top: 41em;
+	left: 5em;
+	animation-duration: 5s;
+}
+
+.star13 {
+	top: 22em;
+	left: 10em;
+	animation-duration: 4s;
+}
+
+.star14 {
+	top: 34em;
+	left: 15em;
+	animation-duration: 6s;
+}
+
+.star15 {
+	top: 33em;
+	left: 105em;
+	animation-duration: 3s;
+}
+
+.star16 {
+	top: 12em;
+	left: 23em;
+	animation-duration: 8s;
+}
+
+.star17 {
+	top: 38em;
+	left: 90em;
+	animation-duration: 4s;
+}
+
+.star18 {
+	top: 20em;
+	left: 20em;
+	animation-duration: 6s;
+}
+
+.star19 {
+	top: 38em;
+	left: 24em;
+	animation-duration: 7s;
+}
+
+.star20 {
+	top: 37em;
+	left: 50em;
+	animation-duration: 8s;
+}
+
+.star21 {
+	top: 26em;
+	left: 95em;
+	animation-duration: 3s;
+}
+
+.star22 {
+	top: 26em;
+	left: 29em;
+	animation-duration: 6s;
+}
+
+.star23 {
+	top: 31em;
+	left: 60em;
+	animation-duration: 4s;
+}
+
+.star24 {
+	top: 17em;
+	left: 100em;
+	animation-duration: 7s;
+}
+
 .circle1 {
 	height: 3em;
 	width: 3em;
@@ -344,6 +425,7 @@ body {
 }
 
 .circle1:hover {
+	background: #333;
 	animation-play-state: paused;
 }
 
@@ -389,6 +471,23 @@ body {
 
 .triangle1:hover {
 	border-top: 7em solid #333;
+	animation-play-state: paused;
+}
+
+.triangle2 {
+	border-left: 3em solid transparent;
+	border-right: 3em solid transparent;
+	border-top: 5em solid blue;
+	position: absolute;
+	margin-top: -6.5em;
+	right: 25em;
+	z-index: 3;
+	animation: moveOrange 2s infinite;
+	animation-direction: alternate;
+}
+
+.triangle2:hover {
+	border-top: 5em solid #333;
 	animation-play-state: paused;
 }
 
